@@ -40,6 +40,7 @@ async function accessSheet(){
     return urlArray;
 }
 
+
 //Generates pieces of the overall report that is posted to slack
 //Uses puppeteer to intercept requests made by the page and updates the json object to indicated whether said pixel is on the site
 //also looks at a google sheet to determine if said tracking tag is supposed to be there.
